@@ -1,0 +1,19 @@
+{
+  "name": "counter",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/counter/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/counter",
+        "main": "libs/counter/src/index.ts",
+        "tsConfig": "libs/counter/tsconfig.lib.json",
+        "assets": ["libs/counter/*.md"]
+      }
+    }
+  }
+}

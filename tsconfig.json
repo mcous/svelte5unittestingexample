@@ -14,6 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@svelteunit/counter": ["libs/counter/src/index.ts"],
       "@svelteunit/source": ["src/index.ts"]
     }
   },
