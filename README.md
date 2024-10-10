@@ -11,6 +11,6 @@ npm install
 to run test:
 
 ```sh
-nx test
+nx test counter
 ```
 

@@ -14,6 +14,10 @@
         "tsConfig": "libs/counter/tsconfig.lib.json",
         "assets": ["libs/counter/*.md"]
       }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
     }
   }
 }
